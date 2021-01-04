@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Faker Project</title>
+  </head>
+  <body>
+    <center>
+    <h1><ins>Student Information</ins></h1>
+    {%for x in fake%}
+
+      <h2>NAME:{{x.name}}</h2>
+      <h2>ROLL:{{x.roll}}</h2>
+      <h2><mark>MARKS</mark>:{{x.marks}}</h2>
+      <h2>DOB:{{x.dob}}</h2>
+      <h2>EMAIL:{{x.email}}</h2><hr color="blue" width="40%" size="5"/>
+
+    {%endfor%}
+    </center>
+  </body>
+</html>
